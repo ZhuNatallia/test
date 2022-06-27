@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Market</title>
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+	<body>
+		<form class="wraper_products">
+			<label>
+				<p>Фото товара</p>
+				<input type="text" name="photo" placeholder="Добавьте ссылку на фото" />
+			</label>
+			<label>
+				<p>Наименование товара</p>
+				<input
+					name="product_name"
+					type="text"
+					placeholder="Введите наименование товара"
+				/>
+			</label>
+
+			<label>
+				<p>Артикул товара</p>
+				<input
+					name="product_code"
+					type="text"
+					placeholder="Введите артикул товара"
+				/>
+			</label>
+
+			<label>
+				<p>Стоимость товара</p>
+				<input
+					name="price"
+					type="text"
+					placeholder="Введите себестоимость товара"
+				/>
+			</label>
+
+			<label>
+				<p>Количество товара</p>
+				<input name="amount" type="text" placeholder="Количество товара" />
+			</label>
+			<button class="btn">Добавить</button>
+		</form>
+		<div class="products_container"></div>
+		<script src="./scripts/script.js"></script>
+	</body>
+</html>
